@@ -1,0 +1,1348 @@
+commit,commit_date_utc,path,source_url,source_status,message,deployment_verified
+bca408730f7e8bec80040e96af1f8a7f92996adf,2021-05-18T16:33:51Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/bca408730f7e8bec80040e96af1f8a7f92996adf/src/entities/Proposal/jobs.ts,retrieved,feat: snapshot implementation,False
+173cee84f1d1040713e009512b54e6d87f5c85a3,2021-05-19T02:16:59Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/173cee84f1d1040713e009512b54e6d87f5c85a3/src/entities/Proposal/jobs.ts,retrieved,fix: use UTC date,False
+5e6b0182fa98680e4e919e4c6692556d20320b76,2021-05-22T03:45:59Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/5e6b0182fa98680e4e919e4c6692556d20320b76/src/entities/Proposal/jobs.ts,retrieved,fix: finish status,False
+b1c650563dbbcc3c798abffb59fe5e6b85aba8da,2021-05-23T23:24:45Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/b1c650563dbbcc3c798abffb59fe5e6b85aba8da/src/entities/Proposal/jobs.ts,retrieved,fix: status resolve,False
+8b1e29b50cbfcb142a569cc7dc9a1ea3aa8bc4b5,2021-05-24T18:03:27Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/8b1e29b50cbfcb142a569cc7dc9a1ea3aa8bc4b5/src/entities/Proposal/jobs.ts,retrieved,fix: add `for`/`against` options,False
+51c4835c3708ffe0cd04cd7e1aaea0967a7a0418,2021-06-01T01:48:17Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/51c4835c3708ffe0cd04cd7e1aaea0967a7a0418/src/entities/Proposal/jobs.ts,retrieved,fix: update votes before change a proposal state,False
+8932e972fa3b32fa3c3cd37fb6a7b7f707ecca8a,2021-06-01T01:48:49Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/8932e972fa3b32fa3c3cd37fb6a7b7f707ecca8a/src/entities/Proposal/jobs.ts,retrieved,fix: remove unuse import,False
+8daa5752ab83719fd763a21bd180217426fde06b,2021-06-17T15:26:14Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/8daa5752ab83719fd763a21bd180217426fde06b/src/entities/Proposal/jobs.ts,retrieved,feat: add minimum vp to pass,False
+83ffa82f2acbe408481760b580a46d4091ba46aa,2021-09-02T17:51:42Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/83ffa82f2acbe408481760b580a46d4091ba46aa/src/entities/Proposal/jobs.ts,retrieved,"feat: add the invalid question to polls (resolve #109, resolve #111)",False
+9dca8654765086f4530692f4d2ec315fc9c7b6f5,2021-11-16T17:59:43Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/9dca8654765086f4530692f4d2ec315fc9c7b6f5/src/entities/Proposal/jobs.ts,retrieved,"Automated post in forum thread with the results of the votation (#134)
+
+* Add dependencies for testing
+
+* Create discourse proposal update message builder
+
+* Add method for commenting on discourse post
+
+* Add method to safely get the cached votes of a proposal
+
+* Use DiscourseProposalUpdateMessageBuilder in manual updates and jobs
+
+* Address PR comments. Revert to jest original config. Removed extra logging.
+
+* Revert typos fixing
+
+* Update README with proposal statuses flow info
+
+* Fix update message for null descriptions when enacting, passing & rejecting.
+
+* Move proposal messages functions to proposal/templates and made Discourse API call in background.
+
+* Remove async from commentProposalUpdateInDiscourse calls",False
+0731a47e1902e6fdfe842157fdd08e7490a243e1,2022-05-24T18:38:32Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/0731a47e1902e6fdfe842157fdd08e7490a243e1/src/entities/Proposal/jobs.ts,retrieved,"Delegation dashboard (#330)
+
+* Add new styles to delegated card in balance (#236)
+
+* Improve and reuse Empty card component (#244)
+
+* VP Delegated To User (#238)
+
+* VP Delegated To User card
+
+* Show view all button when there are more than 5 delegations
+
+* Delegated from user card improvements
+
+* Remove read more link. Remove delegate VP for non user profiles.
+
+* Address comments on PR
+
+* Minor styling fix and renames
+
+* Add picked by and voting power to delegation from card (#263)
+
+* Move balance cards to components (#265)
+
+* Add new styles to delegated card in balance (#236)
+
+* Improve and reuse Empty card component (#244)
+
+* VP Delegated To User (#238)
+
+* VP Delegated To User card
+
+* Show view all button when there are more than 5 delegations
+
+* Delegated from user card improvements
+
+* Remove read more link. Remove delegate VP for non user profiles.
+
+* Address comments on PR
+
+* Minor styling fix and renames
+
+* Add picked by and voting power to delegation from card (#263)
+
+* Move balance cards to components (#265)
+
+* Delegate in proposal voting section (#266)
+
+* Move voting section to its own component
+
+* Show delegate vote in proposal voting section
+
+* Voted button and delegate label
+
+* Add username component and move proposal voting power to hook
+
+* Remove choice prop and move auth to voting section
+
+* Add delegators labels
+
+* ChoicesButtons for proposal voting section (#1)
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* Feat: VP Delegation Modal (#267)
+
+* VP Delegation Modal
+
+* Modal folder reorganized
+
+* fix: review comments
+
+* Using snapshot constants
+
+* Feat: Picked By
+
+* minor fix
+
+* fix: try-catch implemented
+
+* Update links and buttons in delegated from card (#270)
+
+* fix: Deleted duplicated import
+
+* Add delegate detail component in delegates modal (#272)
+
+* Add delegate detail component in delegates modal
+
+* Update voting power balance hook
+
+* Add intl texts
+
+* Add voting power stats to delegates detail modal (#274)
+
+* Add candidate stats
+
+* Add percentage bar
+
+* Add stats popup
+
+* Fix general popup styles
+
+* chore: organizing imports (#277)
+
+* Candidate Info (#275)
+
+* Update example_delegates.json
+
+* details started
+
+* feat: candidate info
+
+* chore: rename
+
+* chore: edit delegations only when delegated
+
+* refactor: details strings
+
+* text-overflow in links handled with css
+
+* fix: visual bugs
+
+* minor fix
+
+* reused username
+
+* minor fixes
+
+* Show list of voted proposals in candidate detail (#279)
+
+* Add proposal status and type to initiatives list (#281)
+
+* Add proposal status and type to initiatives list
+
+* Add link to proposal
+
+* Clear selected candidate on modal close
+
+* Update type name
+
+* Proposal Voting Section (#271)
+
+* ChoicesButtons for proposal voting section
+
+* Proposal voting section config method and test
+
+* Proposal voting section WIP
+
+* Remove proposal voting power from proposal voting section.
+
+* Update voted choice label
+
+* Extract proposal voting section footer to component
+
+* Extract voted choice configuration to a builder
+
+* Extract delegations label configuration to a builder
+
+* Builders refactors
+
+* Builders refactors
+
+* Voting Section footer and UI test cases
+
+* VotingSectionFooter refactor
+
+* add minimum required vp to vote to useVotingPowerBalance hook
+
+* Add choice max length validation. Add tooltip for choices buttons and choice in progress. Refactor testing data.
+
+* Move some things around, fix typos
+
+* Update text with tooltip popup to new style
+
+* Rename
+
+* Change file type
+
+* Add loader to delegation detail modal + style fixes (#286)
+
+* Fix vp distribution popup error
+
+* Decrease margin in detail header
+
+* Add loader to candidates detail modal
+
+* Clear timeout on hook cleanup
+
+* Move text to intl file
+
+* Feat: Match percentage in candidate detail section (#285)
+
+* TDD votes match calculation
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: match result
+
+* Fix voted initiative styles
+
+* match helper + a few fixes
+
+* fix: capitalization through css
+
+Co-authored-by: lemu <github@lemu.sh>
+Co-authored-by: Andrés Espagnolo <andyespagnolo@gmail.com>
+
+* Candidate match refactor (#289)
+
+* TDD votes match calculation
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: match result
+
+* Fix voted initiative styles
+
+* match helper + a few fixes
+
+* fix: capitalization through css
+
+* Match fn and component refactor
+
+Co-authored-by: Nicolás Comerci <ncomerci@itba.edu.ar>
+Co-authored-by: Andrés Espagnolo <andyespagnolo@gmail.com>
+Co-authored-by: Nicolás Comerci <45410089+ncomerci@users.noreply.github.com>
+
+* Merge master to delegation (#290)
+
+* Decentraland-gatsby upgraded to 5.5.2 (#260)
+
+* Feat: Delegation Banner (#262)
+
+* Modularized banner
+
+* Format message refactor
+
+* Delegation Banner
+
+* banner minor fixes
+
+* style fix revert
+
+* fix nested 'a' warning
+
+* fixes of comments
+
+* code fixes
+
+* onClose fix
+
+* Fix: build error
+
+* fix: target blank
+
+* Added random banner show
+
+* Update RandomBanner.tsx
+
+* Make number colors configurable for MonthlyTotal (#269)
+
+* Share progress updates (#198)
+
+* Add updates model and endpoints routes
+
+* Add Divider component to reuse in proposal page
+
+* Create updates when grant proposal is enacted
+
+* Add updates list to proposal page and update submit page
+
+* Remove prefix in date from sidebar
+
+* Add update success modal
+
+* Remove console.log
+
+* Fix multiple call to get updates
+
+* Add update detail modal
+
+* Reuse username component from proposal details in modal
+
+* Fix update detail modal title
+
+* Add chevron to proposal update
+
+* Check if user is proposal owner in update list
+
+* Add expanded styles to first item in updates list
+
+* Update success modal styles
+
+* Move updates logic to backend and add tests
+
+* Add markdown fields to update form
+
+* Fix tests
+
+* Add update detail page
+
+* Update Divider component
+
+* Add project health selector to update submit form
+
+* Add project health status to update detail
+
+* Add empty state to updates list
+
+* Add aria-hidden to icons and fix ts errors
+
+* Add last update checkbox and set remaining updates as skipped
+
+* User can add out of schedule updates
+
+* Show next update due date
+
+* Show index number in updates list and detail page
+
+* Add preview mode to submit update form
+
+* Update success modal
+
+* Remove last update checkbox field from update form
+
+* Update functions
+
+* Use svg icons in proposal updates list
+
+* Add submit update url to locations module
+
+* Improve conditions in ProposalUpdates
+
+* Fix styles and imports
+
+* Update status styles and icons
+
+* Update format message hook variable
+
+* Hide markdown notice, fix styles and add profile hook
+
+* Add threshold to missed updates
+
+* Fix highlights placeholder text
+
+* Update success modal styles
+
+* Update missed update texts
+
+* Fix image size in markdown update view
+
+* Show results to grant owners in proposals
+
+* Keep reading text style changes according to health
+
+* Add time tag to updates dates
+
+* Add time tag in next updates date
+
+* Fix recent date
+
+* Add threshold to current update and helper popup
+
+* Fix time, change late label style and tooltip position
+
+* Fix showing not found component in update page
+
+* Update components and entity route
+
+* Change address type in Username component
+
+* Remove unused import
+
+* Update node-pg-migrate and pg dependencies
+
+* fix: upgrade decentraland-gatsby to fix links not opening in new tab (#280)
+
+* Fix import in RandomBanner
+
+Co-authored-by: Nicolás Comerci <45410089+ncomerci@users.noreply.github.com>
+Co-authored-by: lemu <juampiarnaudo@gmail.com>
+
+* Voted initiative list improvements (#294)
+
+* Demo fixes (#295)
+
+* Changes to username components & demo fixes
+
+* Remove modals close button background
+
+* Renames
+
+* Added useVotingPowerBalanceList hook (#291)
+
+* Feat: Delegate VP button (#298)
+
+* button added
+
+* feat: Delegate VP button
+
+* Merge branch 'delegation' into delegate-vp-button
+
+* minor fix
+
+* refactor: useSnapshotDelegateContract
+
+Co-authored-by: lemu <github@lemu.sh>
+Co-authored-by: Andy Espagnolo <andyespagnolo@gmail.com>
+
+* global delegation considered
+
+* refactor: VotingPowerDelegationButton
+
+Co-authored-by: lemu <github@lemu.sh>
+Co-authored-by: Andy Espagnolo <andyespagnolo@gmail.com>
+
+* Voting section tooltip with info message (#301)
+
+* Voting section tooltip with info message
+
+* Address comments and reformat
+
+* Info message refactor
+
+* FIx: waiting for VP delegation to complete (#302)
+
+* Waiting for transaction to complete
+
+* minor fixes
+
+* comment fix
+
+* Merge master to delegation (#300)
+
+* Decentraland-gatsby upgraded to 5.5.2 (#260)
+
+* Feat: Delegation Banner (#262)
+
+* Modularized banner
+
+* Format message refactor
+
+* Delegation Banner
+
+* banner minor fixes
+
+* style fix revert
+
+* fix nested 'a' warning
+
+* fixes of comments
+
+* code fixes
+
+* onClose fix
+
+* Fix: build error
+
+* fix: target blank
+
+* Added random banner show
+
+* Update RandomBanner.tsx
+
+* Make number colors configurable for MonthlyTotal (#269)
+
+* Share progress updates (#198)
+
+* Add updates model and endpoints routes
+
+* Add Divider component to reuse in proposal page
+
+* Create updates when grant proposal is enacted
+
+* Add updates list to proposal page and update submit page
+
+* Remove prefix in date from sidebar
+
+* Add update success modal
+
+* Remove console.log
+
+* Fix multiple call to get updates
+
+* Add update detail modal
+
+* Reuse username component from proposal details in modal
+
+* Fix update detail modal title
+
+* Add chevron to proposal update
+
+* Check if user is proposal owner in update list
+
+* Add expanded styles to first item in updates list
+
+* Update success modal styles
+
+* Move updates logic to backend and add tests
+
+* Add markdown fields to update form
+
+* Fix tests
+
+* Add update detail page
+
+* Update Divider component
+
+* Add project health selector to update submit form
+
+* Add project health status to update detail
+
+* Add empty state to updates list
+
+* Add aria-hidden to icons and fix ts errors
+
+* Add last update checkbox and set remaining updates as skipped
+
+* User can add out of schedule updates
+
+* Show next update due date
+
+* Show index number in updates list and detail page
+
+* Add preview mode to submit update form
+
+* Update success modal
+
+* Remove last update checkbox field from update form
+
+* Update functions
+
+* Use svg icons in proposal updates list
+
+* Add submit update url to locations module
+
+* Improve conditions in ProposalUpdates
+
+* Fix styles and imports
+
+* Update status styles and icons
+
+* Update format message hook variable
+
+* Hide markdown notice, fix styles and add profile hook
+
+* Add threshold to missed updates
+
+* Fix highlights placeholder text
+
+* Update success modal styles
+
+* Update missed update texts
+
+* Fix image size in markdown update view
+
+* Show results to grant owners in proposals
+
+* Keep reading text style changes according to health
+
+* Add time tag to updates dates
+
+* Add time tag in next updates date
+
+* Fix recent date
+
+* Add threshold to current update and helper popup
+
+* Fix time, change late label style and tooltip position
+
+* Fix showing not found component in update page
+
+* Update components and entity route
+
+* Change address type in Username component
+
+* Remove unused import
+
+* Update node-pg-migrate and pg dependencies
+
+* fix: upgrade decentraland-gatsby to fix links not opening in new tab (#280)
+
+* fix: hook render causing white page after search (#287)
+
+* Fix hook render causing white page after search
+
+* Move local storage use to component
+
+* Fix local storage not accesible from server side rendering
+
+* fix delegation (#284)
+
+* Update useLocation module import and fix updates url navigation (#296)
+
+* chore: update useLocation module import
+
+* fix: update url not working properly
+
+Co-authored-by: Nicolás Comerci <45410089+ncomerci@users.noreply.github.com>
+Co-authored-by: lemu <juampiarnaudo@gmail.com>
+
+* Move handler and fix styles on updates (#304)
+
+* fix: css import in voting power delegation handler (#305)
+
+* Remove unused hook (#306)
+
+* Voting with calculation (#307)
+
+* Use VP at the proposal time of creation instead of the latest VP
+
+* Address pr comments. Refactor Record<string, number> uses as Scores
+
+* Refactors
+
+* Remove proposal voting section tester (#308)
+
+* Candidates + Update fixes (#309)
+
+* Move voting power hook to delegation modal
+
+* Remove test candidate
+
+* Fix username alignment styles
+
+* Fix username link in update detail page
+
+* Update balance cards and empty styles
+
+* Remove inline styles (#310)
+
+* feat: add ESTATE voting power to candidate detail (#311)
+
+* feat: add ESTATE voting power to candidate detail
+
+* chore: move multipliers to variables
+
+* Move proposal time countdowns to components without hook logic (#313)
+
+* ChainId refactor (#312)
+
+* Chan id changes to be able to test with rinkeby
+
+* remove dependencies from useVotingPowerOnProposal hook
+
+* Fixes on vp on proposal hook, date displayed & style changes.
+
+* Add hook to get delegations on proposal's blocknumber (#315)
+
+* refactor: Fetch VP strategy (#318)
+
+* refactor: new type for detailed scores (#319)
+
+* fix: wrong vp use and imports (#320)
+
+* fix: wrong vp use and imports
+
+* refactor: voting power hooks
+
+* Delegation fixes: styles, unused hooks / endpoints, vp calculation after proposal creation (#321)
+
+* fix: voting section footer tablet styles
+
+* fix: remove unused vp hook and endpoints
+
+* refactor: remove unused import
+
+* refactor: add votes constants in its own file
+
+* fix: voting power hook on proposal after proposal creation
+
+* Fix: ""Cannot read properties of undefined (ownVp)"" (#322)
+
+* Added ESLint (#314)
+
+* Fix re-render proposal and merge master to delegation (#326)
+
+* Delegations label and tooltip text changes (#329)
+
+* Update pulumi dev variables
+
+* Add ipfs url variable in pulumi prod file
+
+* Remove duplicated function
+
+Co-authored-by: lemu <juampiarnaudo@gmail.com>
+Co-authored-by: lemu <github@lemu.sh>
+Co-authored-by: Nicolás Comerci <45410089+ncomerci@users.noreply.github.com>
+Co-authored-by: Nicolás Comerci <ncomerci@itba.edu.ar>",False
+4bc07befaf6bc11aea47a54e59b5675f237d8959,2022-07-26T15:55:50Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/4bc07befaf6bc11aea47a54e59b5675f237d8959/src/entities/Proposal/jobs.ts,retrieved,"feat: create updates when proposal status changes to passed (#417)
+
+* feat: create pending updates when grant status is passed
+
+* feat: create updates on proposal update job
+
+* feat: add endpoint to query all updates",False
+f445561e643e582557f6dbc13e9c358d303cddf6,2022-10-19T19:08:21Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/f445561e643e582557f6dbc13e9c358d303cddf6/src/entities/Proposal/jobs.ts,retrieved,"chore: use proposal graphql endpoint to get scores (#576)
+
+* chore: use proposal graphql endpoint to get scores
+
+Co-authored-by: andyesp <andyespagnolo@gmail.com>
+
+* chore: use proposal graphql endpoint to get scores
+
+Co-authored-by: andyesp <andyespagnolo@gmail.com>
+
+* chore: remove comments
+
+Co-authored-by: andyesp <andyespagnolo@gmail.com>",False
+e05af5e6d6295e75665a8e8cd65e42ec5f59cf9f,2022-10-26T19:24:59Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/e05af5e6d6295e75665a8e8cd65e42ec5f59cf9f/src/entities/Proposal/jobs.ts,retrieved,feat: Voted proposals on profile (#582),False
+d5542bf4ac9ba02299c4fb3935d73d9831439f1b,2022-10-31T17:28:00Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/d5542bf4ac9ba02299c4fb3935d73d9831439f1b/src/entities/Proposal/jobs.ts,retrieved,"feat: remove ipfs fetch on proposal creation (#586)
+
+* feat: remove ipfs fetch on proposal creation
+
+* empty commit!
+
+* feat: remove snapshot_signature column from proposal model
+
+* feat: remove ipfs client
+
+* chore: remove radash package",False
+206fed2a6617faef0b2229d50d1424ae7e4b2ec8,2022-12-12T19:05:20Z,src/entities/Proposal/jobs.ts,https://raw.githubusercontent.com/decentraland/governance/206fed2a6617faef0b2229d50d1424ae7e4b2ec8/src/entities/Proposal/jobs.ts,retrieved,"feat: discord integration (#602)
+
+* feat: send message to discord channel on new proposal
+
+* feat: send discord message on new update
+
+* feat: send discord message on proposal finish
+
+* formatted message started
+
+* new proposal format
+
+* finished proposal format
+
+* grant updates
+
+* requested changes
+
+* requested changes
+
+* background & error handling
+
+* inBackground return value
+
+Co-authored-by: ncomerci <ncomerci@itba.edu.ar>",False
+922f3edb14e85772d6126c6c3fd90b3b551b13cd,2023-02-27T18:56:02Z,src/entities/Proposal/outcome.ts,https://raw.githubusercontent.com/decentraland/governance/922f3edb14e85772d6126c6c3fd90b3b551b13cd/src/entities/Proposal/outcome.ts,retrieved,"feat: new grants submit (#698)
+
+* feat: submit grants with new tiers and categories (#681)
+
+* feat: add new tiers with grant tier class
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: improve grant tier class methods and add test
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* remove unused vars
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: new categories in grant submit
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: update grant budget minimum
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* Request grant section (#685)
+
+* feat: improve grant tier class methods and add test
+
+* feat: request grant section WIP
+
+* feat: request grant section WIP
+
+* feat: grant request section state icons & validation
+
+* refactor: extract generic grant request section
+
+* fix: import
+
+* fix: configurable grant request section icons
+
+* feat: grant request general info section + refactors
+
+* chore: add size too big validation to funding
+
+* refactors: address pr comments
+
+Co-authored-by: Andy Espagnolo <andyespagnolo@gmail.com>
+
+* feat: add grant category selection section (#686)
+
+* feat: add grant category selection section
+
+* fix: mobile stlyes
+
+* fix: type in category filter hook
+
+* feat: submit grants page  (#690)
+
+* feat: improve grant tier class methods and add test
+
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: request grant section WIP
+
+* feat: request grant section WIP
+
+* feat: grant request section state icons & validation
+
+* refactor: extract generic grant request section
+
+* feat: grant request general info section + refactors
+
+* chore: add size too big validation to funding
+
+* feat: funding boxes layout WIP
+
+* feat: project duration and payout strategy components WIP
+
+* feat: internationalization, refactors and validations
+
+* refactors: move project duration limits to GrantTier class
+
+* refactor: use theme white
+
+* chore: add specification, grant type validation fix, add sections validations state to grant page
+
+* chore: grant request general info section
+
+* chore: add submit button
+
+* chore: renames
+
+* chore: update funding section with category WIP
+
+Co-authored-by: Andy Espagnolo <andyespagnolo@gmail.com>
+
+* feat: grant submit changes (#691)
+
+* feat: add grant request section card component
+
+* feat: add desired funding input
+
+* feat: add estimated project duration input
+
+* hide sticky stuff and fix submit button styles
+
+* feat: add description to i18n
+
+* add budget object
+
+* add vesting contract start i18n texts and remove unused props
+
+* feat: general information section (#694)
+
+* chore: add old grant request fields
+
+* chore: remove old grant request schema
+
+* refactor: move grants constants
+
+* feat: add category budget copy (#697)
+
+* feat: add category selector texts (#696)
+
+* feat: add category budget endpoint with mock data (#695)
+
+* Feat/final consent (#699)
+
+* chore: add min height to category selector cards
+
+* chore: remove unused css classes
+
+* fix: update number icon component with centered numbers
+
+* feat: add final consent section to grants submit page
+
+* chore: remove error messages for final consent section
+
+* refactor: remove state from useEffect
+
+* refactor: replace color with theme one
+
+* chore: move checkboxes css to new file
+
+* re-enable grant creation (#700)
+
+* Save new grants to db (#701)
+
+* feat: add final consent section to grants submit page
+
+* chore: remove error messages for final consent section
+
+* refactor: replace color with theme one
+
+* feat: save new grant to db
+
+* Submit improvements (#702)
+
+* feat: add final consent section to grants submit page
+
+* chore: remove error messages for final consent section
+
+* refactor: replace color with theme one
+
+* feat: save new grant to db
+
+* fix: show loader on submit
+
+* feat: switch funding order (experimental)
+
+* fix: co-authors validations
+
+* rollback: preventNavigation changes
+
+* New grants page (#692)
+
+* added support to CategoryFilter for GrantType
+
+* merge adaptation
+
+* small fixes
+
+* filter touch-ups & grants page banner
+
+* Budget banner
+
+* filter icons & legacy filter
+
+* request grant banner
+
+* Moved grant categories to grant types
+
+* added status filter
+
+* banner per category & tittle per category and status
+
+* fix: build error
+
+* Category counter, empty & mobile view (#706)
+
+* added counter
+
+* empty & mobile view
+
+* minor fix
+
+* Feat/fetch budgets (#709)
+
+* feat: transparency budget data type, job in progress
+
+* feat: fetch transparency budget with schema validation
+
+* feat: quarter budgets and quarter category budgets model WIP
+
+* feat: quarter budgets and quarter category budgets migrations
+
+* feat: jobs and routes to fetch and update budgets
+
+* feat: add buttons to debug page to trigger budget fetch/update
+
+* refactor: reorganize budgets methods
+
+* refactor: budgets update submit fn
+
+* chore: update category type in model/routes/migrations to match new grant proposal types.
+
+* refactor: address pr comments
+
+* Grants form validations (#710)
+
+* fix: form fields validation
+
+* display submit error
+
+* Chore/budgets tests (#711)
+
+* chore: tests for budget util methods, function rename
+
+* chore: tests, refactors, and fixes for budgets
+
+* chore: remove unused import
+
+* refactor: minor refactors and renames to tests
+
+* Get current budget and current category budgets (#712)
+
+* refactor: created BudgetService
+
+* feat: methods for getting current budget and current budget for a category
+
+* chore: remove old budget constant
+
+* chore: minor fixes
+
+* feat: use current category budget in funding request section (#713)
+
+* Feat/funding category budget validations (#716)
+
+* feat: error display for desired funding input component
+
+* feat: dynamic category budget validation + style improvements
+
+* feat: dynamic category budget validation + style improvements
+
+* feat: backend category budget validation WIP
+
+* feat: backend category budget validation tests
+
+* refactor: css renames
+
+* chore: add red-100 and red-150 to the theme.css (#721)
+
+* Grant updates tests (#715)
+
+* added grant updates creation tests
+
+* added UTC validation
+
+* fix: tested error throwing
+
+* Budget banner changes (#708)
+
+* added counter
+
+* empty & mobile view
+
+* minor fix
+
+* visual changes
+
+* Counter type
+
+* added budget data
+
+* requested changes
+
+* feat: vesting start date radio group (#703)
+
+* feat: add vesting start date radio group ui
+
+* Section finished
+
+* requested change
+
+* Update types.ts
+
+Signed-off-by: lemu <github@lemu.sh>
+
+---------
+
+Signed-off-by: lemu <github@lemu.sh>
+Co-authored-by: ncomerci <ncomerci@itba.edu.ar>
+Co-authored-by: lemu <github@lemu.sh>
+
+* feat: add out of budget to proposal status (#723)
+
+* feat: add out of budget to proposal status
+
+* refactor: address PR comments
+
+* fix: funding validation on vesting start date change and on non-empty funding input (#729)
+
+* fix: funding validation on vesting start date change
+
+* fix: validate only when funding is not empty
+
+* fix: remaining category budget text (#730)
+
+* feat: add helper to lock icon in calculation boxes (#731)
+
+* feat: FinishProposal Job Update (#728)
+
+* feat: finish proposal job test
+
+* feat: finish proposal job test for the three current outcomes
+
+* feat: first version of finish proposal updating budgets WIP
+
+* feat: finish proposal tests WIP
+
+* feat: finish proposal tests
+
+* feat: update client side rollbar token with DAO credentials. Add server side rollbar deps
+
+* feat: create ErrorService for server side error reporting
+
+* feat: create ErrorReporting section in debug page to test sending errors from client to server, and from server to rollbar
+
+* refactor: check for null results and report missing budgets in BudgetService
+
+* refactor: filter proposals that have a start date previous to budgeting system in finish proposal job
+
+* refactor: log rollbar token not found only in prod/staging environment
+
+* refactor: report client errors to rollbar with client:true tag
+
+* refactor: get budgets for proposals tests and fixes
+
+* refactor: update rollbar token env var
+
+* refactor: improve calculateOutcome logging
+
+* fix: looping async method in budget service
+
+* chore: disable failed proposal outcome logging for dev envs
+
+* refactor: change usage of discourse env vars to enable discourse tests
+
+* refactor: avoid throwing custom error if DISCOURSE_API_KEY is missing
+
+* refactor: endpoint casing
+
+* refactor: remove unnecessary env variable for DISCORD
+
+* refactor: renames
+
+* refactor: address pr comments
+
+* refactor: remove GATSBY_DISCOURSE_CATEGORY from .jsons
+
+* refactor: address pr comments with @andyesp
+
+* Feat/add pending grant status (#738)
+
+* feat: add Pending status to grants status
+
+* refactor: move grants method to grants utils.ts
+
+* fix: validate funding is integer (#735)
+
+* fix: grant submit mobile styles (#736)
+
+* fix: grant submit mobile styles
+
+* fix: invalid prop in html element error
+
+* refactor: create grants service & renames (#739)
+
+* refactor: move job.tests constants to testHelpers.ts
+
+* Feat/pending grants (#734)
+
+* feat: add pending grants (without vesting) to grants list fo grants page
+
+* refactor: rename GovernanceGrant to Grant
+
+* refactor: address pr comments
+
+* chore: remove unused tier and min grant size env vars (#740)
+
+* refactor: use ceiling for displaying consumed percentage in grants banner (#741)
+
+* Refactor/tests env vars (#742)
+
+* refactor: require discourse category env var only when needed. Mock variable in tests.
+
+* chore: remove dev env vars as arg to test script
+
+* chore: rename DISCOURSE_CATEGORY env var
+
+* feat: update grant category pill colors (#744)
+
+* refactor: report snapshot graphql errors to rollbar (#743)
+
+* refactor: report snapshot graphql errors to rollbar
+
+* feat: add error client
+
+* fix: update error client in inBatches function
+
+* chore: add grants testing env vars & refactors (#745)
+
+* chore: add grants testing env vars & refactors
+
+* refactor: method rename
+
+* refactor: GRANT_PROPOSAL_DURATION_IN_SECONDS refactor
+
+* chore: remove old tiers constants
+
+* refactor: remove todos, remove grant from required vp object (#746)
+
+* refactor: GATSBY_GRANT_VP_THRESHOLD env var refactor (#747)
+
+* feat: add checkbox component for final consent section (#750)
+
+* Pill names and sizes (#749)
+
+* fix: label for OOB pill on proposal card
+
+* fix: adjust labels size and text for mobile
+
+* chore: adjust date lengths and avatar margins for proposal cards
+
+* chore: revert changes to date tooltip
+
+* feat: validate after any change in any form (#751)
+
+* feat: funding section validation (#752)
+
+* feat: category assessment section in grant submit (#748)
+
+* feat: add form components for all categories
+
+* feat: add fields and validation
+
+* move imperative handle to hook file
+
+* fix states comparison
+
+* feat: add platform and documentation checkboxes in final consent
+
+* add more fields and validations
+
+* refactor: add checkbox section component
+
+* feat: add multiple choice to documentation section
+
+* add event type select field in sponsorship section
+
+* fix radio buttons styles in funding
+
+* feat: add primary source funding select field to sponsorship section
+
+* add checkboxes in sponsorship event category
+
+* add missing code of ethics
+
+* rename types, components and variables
+
+* add missing terms and content policy links
+
+* refactor: add multiple choice field component (#753)
+
+* refactor: add multiple choice field component
+
+* remove console.log
+
+* refactor: dynamic section numbers (#754)
+
+* feat: add preferred payment token field (#755)
+
+* feat: grant submit sticky navbar (#756)
+
+* feat: update snapshot description text (#757)
+
+* feat: save CategoryAssessmentQuestions (#758)
+
+* feat: add social media platforms multiple choice field (#759)
+
+* feat: use a new validator for each new grant request (#760)
+
+* feat: add category assessment component in proposal detail (#762)
+
+* feat: add category assessment component in proposal detail
+
+* add all categories in category assessment
+
+* fix: spacing styles in grant submit form (#761)
+
+* fix: typos (#763)
+
+* fix: grant request banner styles and voting status summary display name
+
+* feat: Platform final consent split (#766)
+
+* feat: add Other checkbox to sponsorship and documentation (#764)
+
+* final consent split
+
+* added links
+
+---------
+
+Co-authored-by: Andy Espagnolo <andyespagnolo@gmail.com>
+
+* feat: add title sublabel (#765)
+
+* feat: add title sublabel
+
+* update text
+
+* Feat/proposal view category assesment (#767)
+
+* chore: rename DISCOURSE_CATEGORY to GATSBY_DISCOURSE_CATEGORY
+
+* feat: category assessment copies
+
+---------
+
+Signed-off-by: lemu <github@lemu.sh>
+Co-authored-by: lemu <github@lemu.sh>
+Co-authored-by: Nicolás Comerci <45410089+ncomerci@users.noreply.github.com>
+Co-authored-by: ncomerci <ncomerci@itba.edu.ar>",False
+7846e827a1b7c884a94aac3685937278f5cc6436,2023-03-17T19:36:17Z,src/entities/Proposal/outcome.ts,https://raw.githubusercontent.com/decentraland/governance/7846e827a1b7c884a94aac3685937278f5cc6436/src/entities/Proposal/outcome.ts,retrieved,"feat: Added 'Abstain' as default option for voting (#811)
+
+* feat: added abstain option
+
+* fix: outcome calculation
+
+* added outcome tests
+
+* small fixes",False
+5e28acc6cfd9c18ec69a6805d2ffb57eed663a21,2023-03-24T15:39:07Z,src/entities/Proposal/outcome.ts,https://raw.githubusercontent.com/decentraland/governance/5e28acc6cfd9c18ec69a6805d2ffb57eed663a21/src/entities/Proposal/outcome.ts,retrieved,"fix: Outcome calculation for proposals with legacy options (#873)
+
+* fix: outcome for legacy options
+
+* variables rename",False
+0476346c7895227afa93cc892cd8be4c8fa9acc1,2023-04-27T13:39:14Z,src/entities/Proposal/outcome.ts,https://raw.githubusercontent.com/decentraland/governance/0476346c7895227afa93cc892cd8be4c8fa9acc1/src/entities/Proposal/outcome.ts,retrieved,refactor: simplify calculate outcome function (#942),False

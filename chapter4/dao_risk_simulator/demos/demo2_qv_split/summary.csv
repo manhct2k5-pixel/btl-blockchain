@@ -1,0 +1,7 @@
+﻿mechanism,worlds,eligible,attempted,success,unknown_attempted,rate_eligible,rate_attempted,factor_name,factor_value
+TW,1,1,1,0,0,0.0,0.0,alias_count,1
+QV,1,1,1,0,0,0.0,0.0,alias_count,1
+CAP,1,1,1,0,0,0.0,0.0,alias_count,1
+TW,1,1,1,0,0,0.0,0.0,alias_count,4
+QV,1,1,1,1,0,1.0,1.0,alias_count,4
+CAP,1,1,1,1,0,1.0,1.0,alias_count,4

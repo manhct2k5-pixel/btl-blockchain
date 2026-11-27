@@ -1,0 +1,3 @@
+﻿mechanism,worlds,eligible,attempted,success,unknown_attempted,rate_eligible,rate_attempted,factor_name,factor_value
+VE,1,1,1,1,0,1.0,1.0,lock_amount_fraction,.5
+VE,1,1,1,1,0,1.0,1.0,lock_amount_fraction,1

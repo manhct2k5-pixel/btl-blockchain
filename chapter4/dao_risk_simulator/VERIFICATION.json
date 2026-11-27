@@ -1,0 +1,10 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "mode": "submission_runtime",
+  "model_fingerprint": "995c06934a587b0dfe09a63a165308fc59f1199cc98adfe235e4994ddd108860",
+  "scope": "release_tests and current Streamlit UI tests",
+  "skips": 0,
+  "total_tests": 41,
+  "zero_collection": false
+}

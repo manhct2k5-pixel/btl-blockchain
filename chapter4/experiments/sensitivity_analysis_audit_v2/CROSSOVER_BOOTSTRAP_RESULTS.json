@@ -1,0 +1,51 @@
+{
+  "conditional_interval_is_not_unconditional_95pct_confidence_set": true,
+  "exact_p_star": "257/8845",
+  "iterations": 10000,
+  "kind_counts": {
+    "OUTSIDE_UNIT_INTERVAL": 2435,
+    "VALID_CLOSED_UNIT_INTERVAL": 7565
+  },
+  "legacy_formula_real_line_percentile95": [
+    -0.12145557655954636,
+    0.1531976496636294
+  ],
+  "legacy_positive_denominator_samples": 10000,
+  "original_interval_reproduced": true,
+  "other_worlds": 452,
+  "paired_unit": "WORLD_VECTOR_TW_QV_CAP_WITHIN_STRATUM",
+  "paired_world_ids_sha256": "e280d60128bca4eef5cb4c6e9e06ad178ca2fbebeeb9cb13a3227da97bf155db",
+  "point": {
+    "a": 257,
+    "b": 8588,
+    "denominator": 8845,
+    "kind": "VALID_CLOSED_UNIT_INTERVAL",
+    "root": 0.029055963821368005,
+    "valid": true
+  },
+  "previous_saved_interval": [
+    -0.12145557655954636,
+    0.1531976496636294
+  ],
+  "scalar_parameter_scope": "Mixture weight over eligible synthetic SPLIT opportunities, not real DAO prevalence",
+  "seed": 4302029,
+  "source_counts": {
+    "OTHER": {
+      "CAP": 17,
+      "QV": 16,
+      "TW": 17
+    },
+    "SPLIT": {
+      "CAP": 19,
+      "QV": 19,
+      "TW": 0
+    }
+  },
+  "split_worlds": 257,
+  "valid_root_conditional_percentile95": [
+    0.0,
+    0.15933044017358958
+  ],
+  "valid_root_fraction": 0.7565,
+  "valid_root_samples": 7565
+}

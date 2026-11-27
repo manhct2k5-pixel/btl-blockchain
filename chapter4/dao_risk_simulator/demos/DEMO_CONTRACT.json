@@ -1,0 +1,31 @@
+{
+  "cases": {
+    "demo1_tw": {
+      "expected": "Unequal source VP; TW options equal exact source tally; direct module parity",
+      "replicate": 95,
+      "template": "SWITCH"
+    },
+    "demo2_qv_split": {
+      "expected": "Fixed source and cash; k=1->4 increases sqrt score; TW unchanged",
+      "replicate": 9,
+      "template": "SPLIT"
+    },
+    "demo3_capping": {
+      "expected": "Changing cap changes effective weights, source VP fixed; no universal safety ranking",
+      "replicate": 9,
+      "template": "SPLIT"
+    },
+    "demo4_ve": {
+      "expected": "Amount doubling doubles points at fixed remaining time; duration changes frozen end",
+      "replicate": 22,
+      "template": "VE_MOBILIZE"
+    },
+    "demo5_information": {
+      "expected": "Missing grant NOT_READY; uninformed targeted INFEASIBLE; valid grant eligible; general allocation NOT_READY",
+      "replicate": 9,
+      "template": "SPLIT"
+    }
+  },
+  "master_seed": 4302027,
+  "selection": "ILLUSTRATIVE_PRIOR_SELECTED_CASES_NOT_A_RANDOM_RISK_SAMPLE"
+}

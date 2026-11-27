@@ -1,0 +1,2016 @@
+{
+  "app_version": "DAO-RISK-SIMULATOR-1.0",
+  "files": {
+    "baseline/abm_inputs.py": "826c9a7ba05276d5753ca9ed17472c27582e41bcb63705816fc396205dc3cac1",
+    "baseline/catalog.py": "92dc7ac1e5ab950897516a0119727fda841c3277aa1398037a42e846c31e6095",
+    "baseline/engine.py": "5562d85976fd3c6e145de0816d2b272996fb383c1a307a21c1b6a6c62ce002ea",
+    "baseline/integrity.py": "1c641f8debf041d9371a89af172c1cb372a507cd3a8bdd950c27a9b6dddd54f2",
+    "baseline/make_synthetic_cases.py": "c7639f65f614a5959b945bc954ae21508e87d497c234743bb268af1cd7a40ede",
+    "baseline/render_reports.py": "be80ab3ddc7e2d3b2b8cea09deb9e5a91f5d472175dc09d4618472b1e26c069b",
+    "baseline/run_baseline.py": "dbace93d972ff5d4eeb2ddf72c04d15061d9195244689608b7e936ff774ee8e8",
+    "baseline/verify.py": "09d113f7b236c3e7a9712b341cb570dab0ca9b94d9b0c271578ae3f20888fff8",
+    "chapter4/initialization/finalize_qa.py": "1756edc11d4e91d5a9488f3b75920a9112af6a3ab9794909779a02435b84a7a0",
+    "chapter4/initialization/initialize.py": "e94c2c8d002e6d7c2ac2271d161546829783616f2baabdcaa6866ee8aaa3dd4f",
+    "chapter4/initialization/model.py": "d4faea3bb478d413ee9ab0812afe31984b3a3df41a7f1681883640c81d699f16",
+    "chapter4/initialization/verify.py": "53fc05c32fc1b347b8c7bd2264cb40c1773e77ee693e67ef09f3344f781efb35",
+    "chapter4/behavior/behavior.py": "077bec86450d251cbc4836e941a832aea5a822ec797e89206ae4e71f04bd1497",
+    "chapter4/behavior/finalize_qa.py": "820f74c69bbc8a03c4daf133c703034d3a8761baaf5a46acb6cf0fae90096534",
+    "chapter4/behavior/render_reports.py": "f983365c98df859da046b30314500550660cb0d3b9d2e0b80328b4af4637d36a",
+    "chapter4/behavior/run_behavior.py": "73a508311a8dcb2bc46b917c35f3257df4d0b5500959c7bb0c20f686b0b48267",
+    "chapter4/behavior/scenarios.py": "53078bd2447787e2ef011a5286b2745b2076d33f6885a86f5388b92251cc6845",
+    "chapter4/behavior/verify.py": "88c53ac9968dc184dc0ee731b06b957e03fcb7c7ee60887b83bccf6129bd4647",
+    "chapter4/mechanisms/token_weighted/behavior_adapter.py": "9ed22fa38fc52dda8116a2a69b1924592da18f789e64c3eba39c31b766844b53",
+    "chapter4/mechanisms/token_weighted/finalize_qa.py": "11946534f598da6699cd3349bae3403190f4b4362669f8a082a09d4c941f9607",
+    "chapter4/mechanisms/token_weighted/mechanism.py": "4e14958bd6a1db14df2746f9dff62ce6d341e5652cc4e9bcd43461f78159792f",
+    "chapter4/mechanisms/token_weighted/render_reports.py": "93891a9963bd351a615a210a793a778387cce63ae7b76459c9415c37dcc1ae76",
+    "chapter4/mechanisms/token_weighted/run_token_weighted.py": "80041dd63e28e95443b47a435ad12d0ca61fed3408e0afa80cc7244701f7badb",
+    "chapter4/mechanisms/token_weighted/verify.py": "b262ddc3fe656f9b49373aa5a96b5abc3dc3cecef547c0c9d54ee2d823030baf",
+    "chapter4/mechanisms/quadratic_voting/prepare_qv.py": "e9793d778cf5247d736a24f470e51934778200420a637e4951c189b39db55422",
+    "chapter4/mechanisms/quadratic_voting/qv_behavior_adapter.py": "9e82ec609cb6114371ba902f6e2b9d9787a6f7e95d558663c8dfaed18798dc34",
+    "chapter4/mechanisms/quadratic_voting/qv_mechanism.py": "b308d1b52567e6493ed2fde3a3312759a68c9dd6d4f2a79e9b8bedead35324e4",
+    "chapter4/mechanisms/quadratic_voting/run_qv.py": "f522c7a12e8873e6b1a8624ca385b9240f0276b44930f7fb02292dbc6cbb02a4",
+    "chapter4/mechanisms/quadratic_voting/verify_qv.py": "21593de01fb965901054b2012933f4c8731214e76240f3912e0109d603fbc1a1",
+    "chapter4/mechanisms/vote_escrow_capping/behavior_sidecar.py": "cf0b870b7a58c7f8f32a521235f530773da2f55d344b7b866c333caeaa192b8b",
+    "chapter4/mechanisms/vote_escrow_capping/escrow.py": "6572e4f3b89b583cfd0b304e3d0c63f5c7330f7a2da0017e3596c8901ff5662c",
+    "chapter4/mechanisms/vote_escrow_capping/policies.py": "0439501ea643de609af030b138d27ee28548d50d08c7c88bf7be438861efbad9",
+    "chapter4/mechanisms/vote_escrow_capping/prepare_inputs.py": "285be50ba972c86d246e53b69317f9e1e5325803a8f2117a045661cc37d8eb2c",
+    "chapter4/mechanisms/vote_escrow_capping/run_ve_cap.py": "968fd324c5e302b4794956ad89e892eba174aa44cf1c5e7e10c1aca9e661c8b3",
+    "chapter4/mechanisms/vote_escrow_capping/scenario_fixtures.py": "0294801555439857d67e3b732b9a25e0dafaf9e5e7d236e35b050e859938f3a9",
+    "chapter4/mechanisms/vote_escrow_capping/verify_ve_cap.py": "50c5855a78c51f7a4653bfae618c8060f37036a1ab81489bf04a1ef0bb826cfb",
+    "chapter4/experiments/attack_model/attack_core.py": "1efa03e2fb3f69942dba5bc4a04bb152900318117b0ad90afc2aa6698c38681d",
+    "chapter4/experiments/attack_model/fixtures.py": "8e44c9b3ed43b4ab93aeb25fa5d097c15f474d3638658c3f8245931d2066b669",
+    "chapter4/experiments/attack_model/metrics.py": "1760fc0cffe1225676fa13b7833f6890cabd2c16deae03df4e07790d6b381962",
+    "chapter4/experiments/attack_model/prepare_inputs.py": "7bc8730830e2ca43498c2deda0d137598970fc091e9f94469534e4416143fc21",
+    "chapter4/experiments/attack_model/qv_numeric_v2.py": "70228e84307b1954787b7256d23795aae509dc894f663af03648959a64136143",
+    "chapter4/experiments/attack_model/run_attack_validation.py": "8fa162f4885796d2e9af9c0de09d0d4a03c3681ddfb84f879ee30eabf9a54dc0",
+    "chapter4/experiments/attack_model/technical_gate.py": "3e77b1f797e68a3917c9c7386865040f52221dfc24c4d69ff85bcf54d41f6467",
+    "chapter4/experiments/attack_model/verify_attack_model.py": "cda8d70a6843fac0449e8863599b79d56d22f63d7548d9e2790d999ef902e79a",
+    "chapter4/experiments/monte_carlo_main/main_generator.py": "3c8632b4883f853e607f41ae8bf66d9cf3ae810709845f2cede1d00afbe51a59",
+    "chapter4/experiments/monte_carlo_main/main_metrics.py": "eac8d7839e1951803675b8cee0469b5d74112d15b620aa3e9a3c255606c82968",
+    "chapter4/experiments/monte_carlo_main/main_patch.py": "32bf508ade1cd5272b72f375d9fb85c8d24fa211c0b6d2d1de8e5e4577c97903",
+    "chapter4/experiments/monte_carlo_main/run_main.py": "7900f156d3c85976c3a79001e9d3b18115f66620686c3d7787f029b5de6b235c",
+    "chapter4/experiments/monte_carlo_main/verify_main.py": "221d0b2203b4d7e3e7541bf7aefd1e9cd5198897d9702847ef6002aa9ef560ba",
+    "chapter4/experiments/sensitivity_analysis/run_sensitivity.py": "4b6a86303e54b0aaf5b228811711e855313a7ef6540a181b472117462b7fd99d",
+    "chapter4/experiments/sensitivity_analysis/sensitivity_reweighting.py": "6b518d2ed5308f7d3e936aa7526a0f402e36620fd625f9c0d0651ab1f1326952",
+    "chapter4/experiments/sensitivity_analysis/sensitivity_simulator.py": "6d3eab54438bb8917564a86ec733033807f5d84599b2aa3ed493a235204712a4",
+    "chapter4/experiments/sensitivity_analysis/verify_sensitivity.py": "2794da3d76486d4ea8eb2029e9c7f5dc98acf03f31ce795709372bcef268548a",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/audit_common.py": "9261ee99236f861745e5e985be57f7321666f63f8cbb664e1a46ae2c5150e406",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/crossover_audit.py": "6766aef7f5e43dbe9e9beb4692339660d048cf17fcdd8e35e4ee4f8b9d0d79c4",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/difference_bands.py": "c32a6211cb45f3bd7675ea2f0f46cf4a8691e11ad1ffafe2ba7b528f90baa188",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/extra_audit_artifacts.py": "a9b6b88c22e0dd08d987464ee3ad5f3632b9dac6609ea5cdf01fa0b4973801d0",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/information_v2.py": "69e3a66de0667f92019d4d704bd508f41401b9e6572bbf06efd3d8f11a70b4e6",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/numerical_audit.py": "4183c7cba0a05ad66fc5141803b8893daa85504c6b75c1eebf3ab6ba9b9bc539",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/replay_type_b.py": "e33b14ea548c5675c96a580b39bd2d61011247b22f8ea901b58ccb7453accb33",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/seed_audit.py": "04e33e9be003bd380395b9486d87b0829c043f164d1c876b7b7f0b5c32899f52",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/verify_audit.py": "796339f61b1603cb48494ef1f6b1dfe3fe788a60fee121db866481f5704973fd",
+    "chapter4/experiments/sensitivity_analysis_audit_v2/ve_audit.py": "5cef33dca74844b9b6ef5f4013729189a0a75f5b07f0eafb1e1ea0243a8cafcf",
+    "chapter4/dao_risk_simulator/service.py": "db0a1b1cc02c5eb25588ac41a26c5e87e7209e2be57eb633aaeb5a2b697daace",
+    "chapter4/dao_risk_simulator/provenance.py": "a6c959f923286e9b97bda8bd085c1465a5733d52a2b4821ee8208232ddcc46d2",
+    "chapter4/dao_risk_simulator/app.py": "d8067c15e1fa4a905db6833defb96c0790497f42371df79e9017e24c93ba34a1",
+    "chapter4/experiments/monte_carlo_main/MC_MAIN_CONTRACT.json": "41332b85f80003b86e2e674eaaec33ffd66a2f42b22264d01a8ef52586d3fdee"
+  },
+  "model_fingerprint": "8bb8aacf7f7b6bc6dc11fb2509013027faacdc696d88814274fca55e330ab07d",
+  "entrypoint": "information_v2.audited_simulate -> main_patch.simulate -> attack_core.simulate",
+  "qv": "qv_numeric_v2.WalletSqrtNumericV2; interval-certified sqrt, no floor",
+  "offline": true,
+  "input_hash": "961aefbeddb972542429709b18f42a7ce9a7ebebc3de6abfc287571b4483c136",
+  "model_seed": 97069224555522087627501003008288005859339439858767951012482678752087332806748,
+  "source": {
+    "template_id": "VE_MOBILIZE",
+    "master_seed": 4302027,
+    "replicate": 22,
+    "group": "VE",
+    "generator_version": "LEVEL_A_WORLD_GENERATOR_V2",
+    "generator_contract": {
+      "actual_blockchain_transactions": false,
+      "base_voters": 4,
+      "calibrated": false,
+      "cap_vp": "100000",
+      "dependency_rules": [
+        "One shared principal budget per controller; receiver wallet 2 may share wallet 1 controller",
+        "Denied rights imply no baseline ballot; MOBILIZE fixes target wallet baseline to None",
+        "SPLIT source is attacker-controlled, GRANTED and baseline Yes; aliases zero until allocation",
+        "SPLIT conserves source across four equal allocations before snapshot",
+        "Target outcome and choice fixed globally, never conditioned on computed outcome",
+        "VE balances drawn as MANA first; reference VP only declared 1 VP/MANA",
+        "Future lock extensions never alter frozen rights",
+        "No rejection sampling by attack feasibility, result or favorable outcome"
+      ],
+      "distributions": {
+        "action_fee": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1
+            ]
+          },
+          "reason": "Do not finance current fees from future bribes",
+          "unit": "TEST_COIN"
+        },
+        "attacker_belief_act": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0.5",
+              "0.75",
+              "1"
+            ]
+          },
+          "reason": "Subjective action belief, not final outcome",
+          "unit": "probability"
+        },
+        "attacker_belief_keep": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0",
+              "0.25",
+              "0.5"
+            ]
+          },
+          "reason": "Ex ante subjective baseline belief",
+          "unit": "probability"
+        },
+        "attacker_benefit": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              5,
+              10,
+              20,
+              40
+            ]
+          },
+          "reason": "Include low incentives and profitable hypothetical attempts",
+          "unit": "individual_chi"
+        },
+        "attacker_budget": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          },
+          "reason": "Finite insufficient/sufficient peak funding",
+          "unit": "TEST_COIN"
+        },
+        "capital_cost": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1
+            ]
+          },
+          "reason": "Separate declared financing disutility",
+          "unit": "individual_chi"
+        },
+        "decision_delay": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              1,
+              2,
+              3
+            ]
+          },
+          "reason": "Strictly later recipient/decision context",
+          "unit": "seconds"
+        },
+        "epsilon": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1,
+              2
+            ]
+          },
+          "reason": "Strict decision thresholds and weak-boundary refusal",
+          "unit": "individual_chi"
+        },
+        "expected_payment_fraction": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0",
+              "0.5",
+              "1"
+            ]
+          },
+          "reason": "Attacker expectation only; full liability still funded",
+          "unit": "fraction"
+        },
+        "family_main": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "SWITCH",
+              "BRIBE_E",
+              "MOBILIZE",
+              "SPLIT"
+            ]
+          },
+          "reason": "Exercise four supported action paths",
+          "unit": "category"
+        },
+        "family_ve": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "MOBILIZE"
+            ]
+          },
+          "reason": "SPLIT of locked assets remains unsupported",
+          "unit": "category"
+        },
+        "future_lock_extension": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "bernoulli",
+          "parameters": {
+            "probability": "0.25"
+          },
+          "reason": "Exercise declared structural cases without outcome filtering",
+          "unit": "boolean"
+        },
+        "governance_value": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "randint",
+          "parameters": {
+            "high": 6,
+            "low": -6
+          },
+          "reason": "Heterogeneous positive/negative state values",
+          "unit": "individual_chi"
+        },
+        "initial_yes": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "bernoulli",
+          "parameters": {
+            "probability": "0.5"
+          },
+          "reason": "Exercise declared structural cases without outcome filtering",
+          "unit": "boolean"
+        },
+        "late_action": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "bernoulli",
+          "parameters": {
+            "probability": "0.05"
+          },
+          "reason": "Exercise declared structural cases without outcome filtering",
+          "unit": "boolean"
+        },
+        "lock_amount_fraction": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0.5",
+              "1"
+            ]
+          },
+          "reason": "Finite fraction of declared MANA",
+          "unit": "fraction"
+        },
+        "lock_remaining_fraction": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0.25",
+              "0.5",
+              "1"
+            ]
+          },
+          "reason": "Different durations before scoring",
+          "unit": "fraction"
+        },
+        "mana_balance": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "randint",
+          "parameters": {
+            "high": 100,
+            "low": 10
+          },
+          "reason": "Independent asset-first VE cohort",
+          "unit": "MANA"
+        },
+        "offer": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              1,
+              3,
+              6
+            ]
+          },
+          "reason": "Finite nonoptimized offers",
+          "unit": "TEST_COIN"
+        },
+        "opportunity_cost": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1
+            ]
+          },
+          "reason": "Separate utility cost of liquidity commitment",
+          "unit": "individual_chi"
+        },
+        "other_budget": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1,
+              3,
+              8
+            ]
+          },
+          "reason": "Recipient fee constraints",
+          "unit": "TEST_COIN"
+        },
+        "replace_allowed": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "bernoulli",
+          "parameters": {
+            "probability": "0.9"
+          },
+          "reason": "Exercise declared structural cases without outcome filtering",
+          "unit": "boolean"
+        },
+        "resource_cost": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1
+            ]
+          },
+          "reason": "Explicit reversible-test cost inputs",
+          "unit": "individual_chi"
+        },
+        "rights_granted": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "bernoulli",
+          "parameters": {
+            "probability": "0.9"
+          },
+          "reason": "Exercise declared structural cases without outcome filtering",
+          "unit": "boolean"
+        },
+        "risk_cost": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1
+            ]
+          },
+          "reason": "Declared state-independent disutility",
+          "unit": "individual_chi"
+        },
+        "setup_fee": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              0,
+              1
+            ]
+          },
+          "reason": "Allow failed attempts with sunk fees",
+          "unit": "TEST_COIN"
+        },
+        "shared_controller": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "bernoulli",
+          "parameters": {
+            "probability": "0.25"
+          },
+          "reason": "Exercise declared structural cases without outcome filtering",
+          "unit": "boolean"
+        },
+        "source_vp": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "randint",
+          "parameters": {
+            "high": 300000,
+            "low": 10000
+          },
+          "reason": "Finite registry spanning the fixed cap",
+          "unit": "VP"
+        },
+        "voter_belief_act": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0",
+              "0.5",
+              "1"
+            ]
+          },
+          "reason": "No imposed acceptance probability",
+          "unit": "probability"
+        },
+        "voter_belief_keep": {
+          "dependency": "Independent stream draws unless explicitly conditioned below",
+          "evidence": "SYNTHETIC_ASSUMPTION",
+          "kind": "choice",
+          "parameters": {
+            "values": [
+              "0",
+              "0.5",
+              "1"
+            ]
+          },
+          "reason": "Independent action-specific response beliefs",
+          "unit": "probability"
+        }
+      },
+      "intervals": {
+        "method": "Wilson 95% per known attempted and eligible-known policy yield",
+        "paired": "Descriptive matched differences and discordant counts; no independent-sample CI",
+        "z": 1.959963984540054
+      },
+      "large_scale_enabled": true,
+      "level": "A_SYNTHETIC_ASSUMPTION",
+      "main_worlds": 1000,
+      "master_seed": 4302027,
+      "mechanisms_main": [
+        "TW",
+        "QV",
+        "CAP"
+      ],
+      "mechanisms_ve": [
+        "VE"
+      ],
+      "model_version": "ATTACK_MODEL_MAIN_V2",
+      "money_to_utility": "1",
+      "outcome_policy": "HYPOTHETICAL_COMMON_BINARY_STRICT_MAJORITY_NO_QUORUM_V1",
+      "paired_unit": "One generated world; mechanism absent from seed/input-generation streams",
+      "proposal": {
+        "block": 42,
+        "created_offset": 10,
+        "end_offset": 100,
+        "epoch": 1700000000,
+        "network": "1",
+        "start_offset": 20
+      },
+      "qv_formula_variant": "WALLET_SQRT_SINGLE_CHOICE_V1",
+      "qv_numeric_patch": "QV_NUMERIC_TYPED_CACHE_V2",
+      "schema": "4.3-monte-carlo-main-contract-v1",
+      "sensitivity_analysis": false,
+      "split_aliases": 3,
+      "statistical_scope": "PRIMARY_ESTIMAND_ELIGIBLE_POLICY_SUCCESS_WITH_WILSON_AND_CLUSTER_BOOTSTRAP",
+      "target_choice": 1,
+      "target_outcome": "ACCEPTED",
+      "time_contract": {
+        "BRIBE_E": "VERIFY_FINAL_ACTION_PAY_AND_REFUND",
+        "MOBILIZE": "SIMULTANEOUS_RESPONSE_ATOMIC_BATCH",
+        "SPLIT": "PRE_SNAPSHOT_FIXED_SOURCE_PARTITION",
+        "SWITCH": "OWN_CONTROLLED_BALLOT_ACTION",
+        "no_attempt": "All action durations null; no fabricated completed action",
+        "no_blockchain_latency_claim": true,
+        "time_to_decision": "Declared decision context minus publication for attempted procedure"
+      },
+      "ve": {
+        "asset": "MANA",
+        "max_seconds": 31536000,
+        "min_seconds": 86400,
+        "network": "1",
+        "reference_vp_per_mana": "1",
+        "ve_points_per_mana": "1"
+      },
+      "ve_worlds": 200,
+      "generator_version": "LEVEL_A_WORLD_GENERATOR_V2",
+      "notes": "Official Level-A Monte Carlo Experiment for Section 4.3. Frozen distributions, strictly pre-snapshot timing fix, 1000 matched main worlds, 200 separate VE worlds."
+    },
+    "overrides": {
+      "lock_remaining_fraction": ".25",
+      "lock_amount_fraction": ".5"
+    },
+    "evidence": "SYNTHETIC_ASSUMPTION_NOT_OBSERVED",
+    "calibrated": false
+  },
+  "elapsed_seconds": 0.13003100000787526,
+  "evidence": "TYPE_B_NEW_MODEL_EXECUTION",
+  "batch_requests": null,
+  "sensitivity_requests": [
+    {
+      "schema": "dao-risk-request-v1",
+      "config": {
+        "schema": "4.3-attack-v1",
+        "scenario_id": "VE_0022",
+        "data_label": "SYNTHETIC_TEST_ONLY",
+        "seed": 97069224555522087627501003008288005859339439858767951012482678752087332806748,
+        "mechanism": "VE",
+        "cap_vp": "100000",
+        "proposal": {
+          "id": "SYNTHETIC_VE_0022",
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "snapshot_time": 1700000000,
+          "created": 1700000010,
+          "start": 1700000020,
+          "end": 1700000100,
+          "network": "1",
+          "block": 42
+        },
+        "principals": {
+          "attacker": {
+            "budget": "4",
+            "governance_values": {
+              "ACCEPTED": "-3",
+              "REJECTED": "-4"
+            },
+            "success_values": {
+              "ACCEPTED": "10",
+              "REJECTED": "0"
+            },
+            "money_to_utility": "1",
+            "epsilon": "0",
+            "utility_unit": "CHI_attacker",
+            "beliefs_keep": {
+              "ACCEPTED": "0.25",
+              "REJECTED": "0.75"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            }
+          },
+          "person1": {
+            "budget": "1",
+            "governance_values": {
+              "ACCEPTED": "-5",
+              "REJECTED": "6"
+            },
+            "success_values": {
+              "ACCEPTED": "0",
+              "REJECTED": "0"
+            },
+            "money_to_utility": "1",
+            "epsilon": "1",
+            "utility_unit": "CHI_person1",
+            "beliefs_keep": {
+              "ACCEPTED": "0",
+              "REJECTED": "1"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            }
+          },
+          "person3": {
+            "budget": "8",
+            "governance_values": {
+              "ACCEPTED": "-2",
+              "REJECTED": "-6"
+            },
+            "success_values": {
+              "ACCEPTED": "0",
+              "REJECTED": "0"
+            },
+            "money_to_utility": "1",
+            "epsilon": "0",
+            "utility_unit": "CHI_person3",
+            "beliefs_keep": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            }
+          }
+        },
+        "attacker": "attacker",
+        "voters": {
+          "0x0000000000000000000000000000000000000001": {
+            "principal": "attacker",
+            "vp": "72",
+            "choice": 2,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": false,
+            "beliefs_keep": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "resource_utility": "0",
+            "risk_utility": "0",
+            "cash_fee": "1"
+          },
+          "0x0000000000000000000000000000000000000002": {
+            "principal": "person1",
+            "vp": "50",
+            "choice": null,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": true,
+            "beliefs_keep": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "resource_utility": "1",
+            "risk_utility": "1",
+            "cash_fee": "0"
+          },
+          "0x0000000000000000000000000000000000000003": {
+            "principal": "person1",
+            "vp": "83",
+            "choice": 1,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": true,
+            "beliefs_keep": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "resource_utility": "0",
+            "risk_utility": "1",
+            "cash_fee": "1"
+          },
+          "0x0000000000000000000000000000000000000004": {
+            "principal": "person3",
+            "vp": "49",
+            "choice": 2,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": true,
+            "beliefs_keep": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "resource_utility": "0",
+            "risk_utility": "1",
+            "cash_fee": "0"
+          }
+        },
+        "attack": {
+          "family": "MOBILIZE",
+          "target_outcome": "ACCEPTED",
+          "target_choice": 1,
+          "published_at": 1700000022,
+          "decision_at": 1700000023,
+          "targets": [
+            "0x0000000000000000000000000000000000000002"
+          ],
+          "payments": {
+            "0x0000000000000000000000000000000000000002": "0"
+          },
+          "setup_fee": "1",
+          "expected_paid": "0",
+          "resource_utility": "0",
+          "opportunity_utility": "0",
+          "capital_utility": "0",
+          "risk_utility": "1",
+          "split": [],
+          "allocation_at": 1699999999,
+          "snapshot_state_unchanged": true
+        },
+        "rho": "FIXED_BASELINE_OUTSIDERS_NO_EXTRA_REACTION",
+        "ve": {
+          "asset": "MANA",
+          "network": "1",
+          "balances_mana": {
+            "0x0000000000000000000000000000000000000001": "72",
+            "0x0000000000000000000000000000000000000002": "50",
+            "0x0000000000000000000000000000000000000003": "83",
+            "0x0000000000000000000000000000000000000004": "49"
+          },
+          "genesis": 1699913600,
+          "max_seconds": 31536000,
+          "min_seconds": 86400,
+          "events": [
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000001",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000001",
+              "actor": "attacker",
+              "amount": "36",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            },
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000002",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000002",
+              "actor": "person1",
+              "amount": "25",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            },
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000003",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000003",
+              "actor": "person1",
+              "amount": "41.5",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            },
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000004",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000004",
+              "actor": "person3",
+              "amount": "24.5",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            }
+          ]
+        }
+      },
+      "information_condition": "INFORMED_PROPOSER",
+      "grant": null,
+      "block_rule": null,
+      "allocation_strategy": "TARGETED_PROPOSAL",
+      "source": {
+        "template_id": "VE_MOBILIZE",
+        "master_seed": 4302027,
+        "replicate": 22,
+        "group": "VE",
+        "generator_version": "LEVEL_A_WORLD_GENERATOR_V2",
+        "generator_contract": {
+          "actual_blockchain_transactions": false,
+          "base_voters": 4,
+          "calibrated": false,
+          "cap_vp": "100000",
+          "dependency_rules": [
+            "One shared principal budget per controller; receiver wallet 2 may share wallet 1 controller",
+            "Denied rights imply no baseline ballot; MOBILIZE fixes target wallet baseline to None",
+            "SPLIT source is attacker-controlled, GRANTED and baseline Yes; aliases zero until allocation",
+            "SPLIT conserves source across four equal allocations before snapshot",
+            "Target outcome and choice fixed globally, never conditioned on computed outcome",
+            "VE balances drawn as MANA first; reference VP only declared 1 VP/MANA",
+            "Future lock extensions never alter frozen rights",
+            "No rejection sampling by attack feasibility, result or favorable outcome"
+          ],
+          "distributions": {
+            "action_fee": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Do not finance current fees from future bribes",
+              "unit": "TEST_COIN"
+            },
+            "attacker_belief_act": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0.5",
+                  "0.75",
+                  "1"
+                ]
+              },
+              "reason": "Subjective action belief, not final outcome",
+              "unit": "probability"
+            },
+            "attacker_belief_keep": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.25",
+                  "0.5"
+                ]
+              },
+              "reason": "Ex ante subjective baseline belief",
+              "unit": "probability"
+            },
+            "attacker_benefit": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  5,
+                  10,
+                  20,
+                  40
+                ]
+              },
+              "reason": "Include low incentives and profitable hypothetical attempts",
+              "unit": "individual_chi"
+            },
+            "attacker_budget": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  2,
+                  4,
+                  8,
+                  16,
+                  32
+                ]
+              },
+              "reason": "Finite insufficient/sufficient peak funding",
+              "unit": "TEST_COIN"
+            },
+            "capital_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Separate declared financing disutility",
+              "unit": "individual_chi"
+            },
+            "decision_delay": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  1,
+                  2,
+                  3
+                ]
+              },
+              "reason": "Strictly later recipient/decision context",
+              "unit": "seconds"
+            },
+            "epsilon": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1,
+                  2
+                ]
+              },
+              "reason": "Strict decision thresholds and weak-boundary refusal",
+              "unit": "individual_chi"
+            },
+            "expected_payment_fraction": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Attacker expectation only; full liability still funded",
+              "unit": "fraction"
+            },
+            "family_main": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "SWITCH",
+                  "BRIBE_E",
+                  "MOBILIZE",
+                  "SPLIT"
+                ]
+              },
+              "reason": "Exercise four supported action paths",
+              "unit": "category"
+            },
+            "family_ve": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "MOBILIZE"
+                ]
+              },
+              "reason": "SPLIT of locked assets remains unsupported",
+              "unit": "category"
+            },
+            "future_lock_extension": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.25"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "governance_value": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "randint",
+              "parameters": {
+                "high": 6,
+                "low": -6
+              },
+              "reason": "Heterogeneous positive/negative state values",
+              "unit": "individual_chi"
+            },
+            "initial_yes": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.5"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "late_action": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.05"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "lock_amount_fraction": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Finite fraction of declared MANA",
+              "unit": "fraction"
+            },
+            "lock_remaining_fraction": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0.25",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Different durations before scoring",
+              "unit": "fraction"
+            },
+            "mana_balance": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "randint",
+              "parameters": {
+                "high": 100,
+                "low": 10
+              },
+              "reason": "Independent asset-first VE cohort",
+              "unit": "MANA"
+            },
+            "offer": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  1,
+                  3,
+                  6
+                ]
+              },
+              "reason": "Finite nonoptimized offers",
+              "unit": "TEST_COIN"
+            },
+            "opportunity_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Separate utility cost of liquidity commitment",
+              "unit": "individual_chi"
+            },
+            "other_budget": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1,
+                  3,
+                  8
+                ]
+              },
+              "reason": "Recipient fee constraints",
+              "unit": "TEST_COIN"
+            },
+            "replace_allowed": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.9"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "resource_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Explicit reversible-test cost inputs",
+              "unit": "individual_chi"
+            },
+            "rights_granted": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.9"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "risk_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Declared state-independent disutility",
+              "unit": "individual_chi"
+            },
+            "setup_fee": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Allow failed attempts with sunk fees",
+              "unit": "TEST_COIN"
+            },
+            "shared_controller": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.25"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "source_vp": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "randint",
+              "parameters": {
+                "high": 300000,
+                "low": 10000
+              },
+              "reason": "Finite registry spanning the fixed cap",
+              "unit": "VP"
+            },
+            "voter_belief_act": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "No imposed acceptance probability",
+              "unit": "probability"
+            },
+            "voter_belief_keep": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Independent action-specific response beliefs",
+              "unit": "probability"
+            }
+          },
+          "intervals": {
+            "method": "Wilson 95% per known attempted and eligible-known policy yield",
+            "paired": "Descriptive matched differences and discordant counts; no independent-sample CI",
+            "z": 1.959963984540054
+          },
+          "large_scale_enabled": true,
+          "level": "A_SYNTHETIC_ASSUMPTION",
+          "main_worlds": 1000,
+          "master_seed": 4302027,
+          "mechanisms_main": [
+            "TW",
+            "QV",
+            "CAP"
+          ],
+          "mechanisms_ve": [
+            "VE"
+          ],
+          "model_version": "ATTACK_MODEL_MAIN_V2",
+          "money_to_utility": "1",
+          "outcome_policy": "HYPOTHETICAL_COMMON_BINARY_STRICT_MAJORITY_NO_QUORUM_V1",
+          "paired_unit": "One generated world; mechanism absent from seed/input-generation streams",
+          "proposal": {
+            "block": 42,
+            "created_offset": 10,
+            "end_offset": 100,
+            "epoch": 1700000000,
+            "network": "1",
+            "start_offset": 20
+          },
+          "qv_formula_variant": "WALLET_SQRT_SINGLE_CHOICE_V1",
+          "qv_numeric_patch": "QV_NUMERIC_TYPED_CACHE_V2",
+          "schema": "4.3-monte-carlo-main-contract-v1",
+          "sensitivity_analysis": false,
+          "split_aliases": 3,
+          "statistical_scope": "PRIMARY_ESTIMAND_ELIGIBLE_POLICY_SUCCESS_WITH_WILSON_AND_CLUSTER_BOOTSTRAP",
+          "target_choice": 1,
+          "target_outcome": "ACCEPTED",
+          "time_contract": {
+            "BRIBE_E": "VERIFY_FINAL_ACTION_PAY_AND_REFUND",
+            "MOBILIZE": "SIMULTANEOUS_RESPONSE_ATOMIC_BATCH",
+            "SPLIT": "PRE_SNAPSHOT_FIXED_SOURCE_PARTITION",
+            "SWITCH": "OWN_CONTROLLED_BALLOT_ACTION",
+            "no_attempt": "All action durations null; no fabricated completed action",
+            "no_blockchain_latency_claim": true,
+            "time_to_decision": "Declared decision context minus publication for attempted procedure"
+          },
+          "ve": {
+            "asset": "MANA",
+            "max_seconds": 31536000,
+            "min_seconds": 86400,
+            "network": "1",
+            "reference_vp_per_mana": "1",
+            "ve_points_per_mana": "1"
+          },
+          "ve_worlds": 200,
+          "generator_version": "LEVEL_A_WORLD_GENERATOR_V2",
+          "notes": "Official Level-A Monte Carlo Experiment for Section 4.3. Frozen distributions, strictly pre-snapshot timing fix, 1000 matched main worlds, 200 separate VE worlds."
+        },
+        "overrides": {
+          "lock_remaining_fraction": ".25",
+          "lock_amount_fraction": ".5"
+        },
+        "evidence": "SYNTHETIC_ASSUMPTION_NOT_OBSERVED",
+        "calibrated": false
+      }
+    },
+    {
+      "schema": "dao-risk-request-v1",
+      "config": {
+        "schema": "4.3-attack-v1",
+        "scenario_id": "VE_0022",
+        "data_label": "SYNTHETIC_TEST_ONLY",
+        "seed": 97069224555522087627501003008288005859339439858767951012482678752087332806748,
+        "mechanism": "VE",
+        "cap_vp": "100000",
+        "proposal": {
+          "id": "SYNTHETIC_VE_0022",
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "snapshot_time": 1700000000,
+          "created": 1700000010,
+          "start": 1700000020,
+          "end": 1700000100,
+          "network": "1",
+          "block": 42
+        },
+        "principals": {
+          "attacker": {
+            "budget": "4",
+            "governance_values": {
+              "ACCEPTED": "-3",
+              "REJECTED": "-4"
+            },
+            "success_values": {
+              "ACCEPTED": "10",
+              "REJECTED": "0"
+            },
+            "money_to_utility": "1",
+            "epsilon": "0",
+            "utility_unit": "CHI_attacker",
+            "beliefs_keep": {
+              "ACCEPTED": "0.25",
+              "REJECTED": "0.75"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            }
+          },
+          "person1": {
+            "budget": "1",
+            "governance_values": {
+              "ACCEPTED": "-5",
+              "REJECTED": "6"
+            },
+            "success_values": {
+              "ACCEPTED": "0",
+              "REJECTED": "0"
+            },
+            "money_to_utility": "1",
+            "epsilon": "1",
+            "utility_unit": "CHI_person1",
+            "beliefs_keep": {
+              "ACCEPTED": "0",
+              "REJECTED": "1"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            }
+          },
+          "person3": {
+            "budget": "8",
+            "governance_values": {
+              "ACCEPTED": "-2",
+              "REJECTED": "-6"
+            },
+            "success_values": {
+              "ACCEPTED": "0",
+              "REJECTED": "0"
+            },
+            "money_to_utility": "1",
+            "epsilon": "0",
+            "utility_unit": "CHI_person3",
+            "beliefs_keep": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            }
+          }
+        },
+        "attacker": "attacker",
+        "voters": {
+          "0x0000000000000000000000000000000000000001": {
+            "principal": "attacker",
+            "vp": "72",
+            "choice": 2,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": false,
+            "beliefs_keep": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "resource_utility": "0",
+            "risk_utility": "0",
+            "cash_fee": "1"
+          },
+          "0x0000000000000000000000000000000000000002": {
+            "principal": "person1",
+            "vp": "50",
+            "choice": null,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": true,
+            "beliefs_keep": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "resource_utility": "1",
+            "risk_utility": "1",
+            "cash_fee": "0"
+          },
+          "0x0000000000000000000000000000000000000003": {
+            "principal": "person1",
+            "vp": "83",
+            "choice": 1,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": true,
+            "beliefs_keep": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "resource_utility": "0",
+            "risk_utility": "1",
+            "cash_fee": "1"
+          },
+          "0x0000000000000000000000000000000000000004": {
+            "principal": "person3",
+            "vp": "49",
+            "choice": 2,
+            "rights": "GRANTED",
+            "rights_at": 1699999990,
+            "can_replace": true,
+            "beliefs_keep": {
+              "ACCEPTED": "0.5",
+              "REJECTED": "0.5"
+            },
+            "beliefs_act": {
+              "ACCEPTED": "1",
+              "REJECTED": "0"
+            },
+            "resource_utility": "0",
+            "risk_utility": "1",
+            "cash_fee": "0"
+          }
+        },
+        "attack": {
+          "family": "MOBILIZE",
+          "target_outcome": "ACCEPTED",
+          "target_choice": 1,
+          "published_at": 1700000022,
+          "decision_at": 1700000023,
+          "targets": [
+            "0x0000000000000000000000000000000000000002"
+          ],
+          "payments": {
+            "0x0000000000000000000000000000000000000002": "0"
+          },
+          "setup_fee": "1",
+          "expected_paid": "0",
+          "resource_utility": "0",
+          "opportunity_utility": "0",
+          "capital_utility": "0",
+          "risk_utility": "1",
+          "split": [],
+          "allocation_at": 1699999999,
+          "snapshot_state_unchanged": true
+        },
+        "rho": "FIXED_BASELINE_OUTSIDERS_NO_EXTRA_REACTION",
+        "ve": {
+          "asset": "MANA",
+          "network": "1",
+          "balances_mana": {
+            "0x0000000000000000000000000000000000000001": "72",
+            "0x0000000000000000000000000000000000000002": "50",
+            "0x0000000000000000000000000000000000000003": "83",
+            "0x0000000000000000000000000000000000000004": "49"
+          },
+          "genesis": 1699913600,
+          "max_seconds": 31536000,
+          "min_seconds": 86400,
+          "events": [
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000001",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000001",
+              "actor": "attacker",
+              "amount": "72",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            },
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000002",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000002",
+              "actor": "person1",
+              "amount": "50",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            },
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000003",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000003",
+              "actor": "person1",
+              "amount": "83",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            },
+            {
+              "event_id": "create:0x0000000000000000000000000000000000000004",
+              "kind": "CREATE",
+              "time": 1699999990,
+              "wallet": "0x0000000000000000000000000000000000000004",
+              "actor": "person3",
+              "amount": "49",
+              "end": 1707883997,
+              "asset": "MANA",
+              "network": "1"
+            }
+          ]
+        }
+      },
+      "information_condition": "INFORMED_PROPOSER",
+      "grant": null,
+      "block_rule": null,
+      "allocation_strategy": "TARGETED_PROPOSAL",
+      "source": {
+        "template_id": "VE_MOBILIZE",
+        "master_seed": 4302027,
+        "replicate": 22,
+        "group": "VE",
+        "generator_version": "LEVEL_A_WORLD_GENERATOR_V2",
+        "generator_contract": {
+          "actual_blockchain_transactions": false,
+          "base_voters": 4,
+          "calibrated": false,
+          "cap_vp": "100000",
+          "dependency_rules": [
+            "One shared principal budget per controller; receiver wallet 2 may share wallet 1 controller",
+            "Denied rights imply no baseline ballot; MOBILIZE fixes target wallet baseline to None",
+            "SPLIT source is attacker-controlled, GRANTED and baseline Yes; aliases zero until allocation",
+            "SPLIT conserves source across four equal allocations before snapshot",
+            "Target outcome and choice fixed globally, never conditioned on computed outcome",
+            "VE balances drawn as MANA first; reference VP only declared 1 VP/MANA",
+            "Future lock extensions never alter frozen rights",
+            "No rejection sampling by attack feasibility, result or favorable outcome"
+          ],
+          "distributions": {
+            "action_fee": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Do not finance current fees from future bribes",
+              "unit": "TEST_COIN"
+            },
+            "attacker_belief_act": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0.5",
+                  "0.75",
+                  "1"
+                ]
+              },
+              "reason": "Subjective action belief, not final outcome",
+              "unit": "probability"
+            },
+            "attacker_belief_keep": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.25",
+                  "0.5"
+                ]
+              },
+              "reason": "Ex ante subjective baseline belief",
+              "unit": "probability"
+            },
+            "attacker_benefit": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  5,
+                  10,
+                  20,
+                  40
+                ]
+              },
+              "reason": "Include low incentives and profitable hypothetical attempts",
+              "unit": "individual_chi"
+            },
+            "attacker_budget": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  2,
+                  4,
+                  8,
+                  16,
+                  32
+                ]
+              },
+              "reason": "Finite insufficient/sufficient peak funding",
+              "unit": "TEST_COIN"
+            },
+            "capital_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Separate declared financing disutility",
+              "unit": "individual_chi"
+            },
+            "decision_delay": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  1,
+                  2,
+                  3
+                ]
+              },
+              "reason": "Strictly later recipient/decision context",
+              "unit": "seconds"
+            },
+            "epsilon": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1,
+                  2
+                ]
+              },
+              "reason": "Strict decision thresholds and weak-boundary refusal",
+              "unit": "individual_chi"
+            },
+            "expected_payment_fraction": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Attacker expectation only; full liability still funded",
+              "unit": "fraction"
+            },
+            "family_main": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "SWITCH",
+                  "BRIBE_E",
+                  "MOBILIZE",
+                  "SPLIT"
+                ]
+              },
+              "reason": "Exercise four supported action paths",
+              "unit": "category"
+            },
+            "family_ve": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "MOBILIZE"
+                ]
+              },
+              "reason": "SPLIT of locked assets remains unsupported",
+              "unit": "category"
+            },
+            "future_lock_extension": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.25"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "governance_value": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "randint",
+              "parameters": {
+                "high": 6,
+                "low": -6
+              },
+              "reason": "Heterogeneous positive/negative state values",
+              "unit": "individual_chi"
+            },
+            "initial_yes": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.5"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "late_action": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.05"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "lock_amount_fraction": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Finite fraction of declared MANA",
+              "unit": "fraction"
+            },
+            "lock_remaining_fraction": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0.25",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Different durations before scoring",
+              "unit": "fraction"
+            },
+            "mana_balance": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "randint",
+              "parameters": {
+                "high": 100,
+                "low": 10
+              },
+              "reason": "Independent asset-first VE cohort",
+              "unit": "MANA"
+            },
+            "offer": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  1,
+                  3,
+                  6
+                ]
+              },
+              "reason": "Finite nonoptimized offers",
+              "unit": "TEST_COIN"
+            },
+            "opportunity_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Separate utility cost of liquidity commitment",
+              "unit": "individual_chi"
+            },
+            "other_budget": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1,
+                  3,
+                  8
+                ]
+              },
+              "reason": "Recipient fee constraints",
+              "unit": "TEST_COIN"
+            },
+            "replace_allowed": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.9"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "resource_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Explicit reversible-test cost inputs",
+              "unit": "individual_chi"
+            },
+            "rights_granted": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.9"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "risk_cost": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Declared state-independent disutility",
+              "unit": "individual_chi"
+            },
+            "setup_fee": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  0,
+                  1
+                ]
+              },
+              "reason": "Allow failed attempts with sunk fees",
+              "unit": "TEST_COIN"
+            },
+            "shared_controller": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "bernoulli",
+              "parameters": {
+                "probability": "0.25"
+              },
+              "reason": "Exercise declared structural cases without outcome filtering",
+              "unit": "boolean"
+            },
+            "source_vp": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "randint",
+              "parameters": {
+                "high": 300000,
+                "low": 10000
+              },
+              "reason": "Finite registry spanning the fixed cap",
+              "unit": "VP"
+            },
+            "voter_belief_act": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "No imposed acceptance probability",
+              "unit": "probability"
+            },
+            "voter_belief_keep": {
+              "dependency": "Independent stream draws unless explicitly conditioned below",
+              "evidence": "SYNTHETIC_ASSUMPTION",
+              "kind": "choice",
+              "parameters": {
+                "values": [
+                  "0",
+                  "0.5",
+                  "1"
+                ]
+              },
+              "reason": "Independent action-specific response beliefs",
+              "unit": "probability"
+            }
+          },
+          "intervals": {
+            "method": "Wilson 95% per known attempted and eligible-known policy yield",
+            "paired": "Descriptive matched differences and discordant counts; no independent-sample CI",
+            "z": 1.959963984540054
+          },
+          "large_scale_enabled": true,
+          "level": "A_SYNTHETIC_ASSUMPTION",
+          "main_worlds": 1000,
+          "master_seed": 4302027,
+          "mechanisms_main": [
+            "TW",
+            "QV",
+            "CAP"
+          ],
+          "mechanisms_ve": [
+            "VE"
+          ],
+          "model_version": "ATTACK_MODEL_MAIN_V2",
+          "money_to_utility": "1",
+          "outcome_policy": "HYPOTHETICAL_COMMON_BINARY_STRICT_MAJORITY_NO_QUORUM_V1",
+          "paired_unit": "One generated world; mechanism absent from seed/input-generation streams",
+          "proposal": {
+            "block": 42,
+            "created_offset": 10,
+            "end_offset": 100,
+            "epoch": 1700000000,
+            "network": "1",
+            "start_offset": 20
+          },
+          "qv_formula_variant": "WALLET_SQRT_SINGLE_CHOICE_V1",
+          "qv_numeric_patch": "QV_NUMERIC_TYPED_CACHE_V2",
+          "schema": "4.3-monte-carlo-main-contract-v1",
+          "sensitivity_analysis": false,
+          "split_aliases": 3,
+          "statistical_scope": "PRIMARY_ESTIMAND_ELIGIBLE_POLICY_SUCCESS_WITH_WILSON_AND_CLUSTER_BOOTSTRAP",
+          "target_choice": 1,
+          "target_outcome": "ACCEPTED",
+          "time_contract": {
+            "BRIBE_E": "VERIFY_FINAL_ACTION_PAY_AND_REFUND",
+            "MOBILIZE": "SIMULTANEOUS_RESPONSE_ATOMIC_BATCH",
+            "SPLIT": "PRE_SNAPSHOT_FIXED_SOURCE_PARTITION",
+            "SWITCH": "OWN_CONTROLLED_BALLOT_ACTION",
+            "no_attempt": "All action durations null; no fabricated completed action",
+            "no_blockchain_latency_claim": true,
+            "time_to_decision": "Declared decision context minus publication for attempted procedure"
+          },
+          "ve": {
+            "asset": "MANA",
+            "max_seconds": 31536000,
+            "min_seconds": 86400,
+            "network": "1",
+            "reference_vp_per_mana": "1",
+            "ve_points_per_mana": "1"
+          },
+          "ve_worlds": 200,
+          "generator_version": "LEVEL_A_WORLD_GENERATOR_V2",
+          "notes": "Official Level-A Monte Carlo Experiment for Section 4.3. Frozen distributions, strictly pre-snapshot timing fix, 1000 matched main worlds, 200 separate VE worlds."
+        },
+        "overrides": {
+          "lock_remaining_fraction": ".25",
+          "lock_amount_fraction": ".5"
+        },
+        "evidence": "SYNTHETIC_ASSUMPTION_NOT_OBSERVED",
+        "calibrated": false
+      }
+    }
+  ]
+}

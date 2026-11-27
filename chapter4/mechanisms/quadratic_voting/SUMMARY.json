@@ -1,0 +1,70 @@
+{
+  "Monte_Carlo": false,
+  "attack_or_defense_success_evaluated": false,
+  "data_label": "HYPOTHETICAL_MECHANICAL_COUNTERFACTUAL_NOT_REAL_DAO_QV",
+  "engine_file": "D:\\BTL_Blockchain\\baseline\\engine.py",
+  "historical": {
+    "assessed": 943,
+    "baseline_raw_tally_count_matches": 1023,
+    "changed_due_to_weighting_under_common_policy": 37,
+    "changed_raw_policy_vs_historical": 142,
+    "changed_vs_historical": 169,
+    "excluded": 80,
+    "exclusion_individual_reasons": {
+      "NON_BINARY_YES_NO_SEMANTICS": 34,
+      "SPECIAL_OR_UNVERIFIED_HISTORICAL_RULE_FAMILY": 80
+    },
+    "exclusion_reason_combinations": {
+      "NON_BINARY_YES_NO_SEMANTICS;SPECIAL_OR_UNVERIFIED_HISTORICAL_RULE_FAMILY": 34,
+      "SPECIAL_OR_UNVERIFIED_HISTORICAL_RULE_FAMILY": 46
+    },
+    "gini_reduced": 941,
+    "numeric_unresolved": 0,
+    "official_labels_used_in_qv_calibration": false,
+    "proposals": 1023,
+    "qv_outcomes": {
+      "ACCEPTED": 535,
+      "REJECTED": 408
+    },
+    "token_historical_outcomes_on_assessed": {
+      "ACCEPTED": 378,
+      "REJECTED": 565
+    },
+    "transition_vs_historical": {
+      "ACCEPTED -> ACCEPTED": 372,
+      "ACCEPTED -> REJECTED": 6,
+      "REJECTED -> ACCEPTED": 163,
+      "REJECTED -> REJECTED": 402
+    },
+    "votes": 63662,
+    "wallets": 6004
+  },
+  "protected_prior_files_unchanged": 1442,
+  "sensitivity_analysis": false,
+  "source_counts": {
+    "B_binding": 1023,
+    "B_binding_outside_C": 17,
+    "B_binding_votes": 63662,
+    "B_binding_wallets": 6004,
+    "C_proposals": 1006,
+    "C_votes": 60804,
+    "C_wallets": 5921,
+    "current_delegation_rows_ignored": 1451,
+    "historical_delegation_edges_verified": 0,
+    "influence_edges_verified": 0,
+    "source_proposals": 2852,
+    "source_votes": 177729
+  },
+  "source_integrity": {
+    "normalized_checksums_verified": 11,
+    "raw_checksums_verified": 912
+  },
+  "synthetic": {
+    "behavior_fixed_and_frozen_views_match": true,
+    "decisions": 9,
+    "proposals": 2,
+    "replacements": 1,
+    "strategic_response_modelled": false
+  },
+  "variant": "WALLET_SQRT_SINGLE_CHOICE_V1"
+}

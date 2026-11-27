@@ -1,0 +1,42 @@
+{
+  "app_version": "DAO-RISK-SIMULATOR-1.0",
+  "errors": 0,
+  "failures": 0,
+  "historical_ux_contract_deselected": 1,
+  "historical_ux_contract_reason": "UI-only V2 immutable-service claim predates this bug-fix task",
+  "mode": "full",
+  "model_fingerprint": "995c06934a587b0dfe09a63a165308fc59f1199cc98adfe235e4994ddd108860",
+  "preservation": {
+    "generated_certificates": [
+      "chapter4/dao_risk_simulator/MODEL_MANIFEST.json",
+      "chapter4/dao_risk_simulator/VERIFICATION.json"
+    ],
+    "hashes_checked": 2117,
+    "intentional_source_changes": [
+      "chapter4/dao_risk_simulator/service.py"
+    ],
+    "relocated_files": 2119
+  },
+  "scope_counts": {
+    "app": 62,
+    "attack_model": 50,
+    "baseline": 45,
+    "behavior": 49,
+    "ch3_critical": 18,
+    "ch3_margins": 27,
+    "initialization": 33,
+    "main_audit_v2": 3,
+    "main_mc": 10,
+    "maintenance": 22,
+    "pilot": 30,
+    "qv": 32,
+    "sensitivity": 20,
+    "sensitivity_audit_v2": 43,
+    "token_weighted": 31,
+    "ux_v2_behavior": 8,
+    "ve_cap": 52
+  },
+  "skips": 0,
+  "total_tests": 535,
+  "zero_collection": false
+}

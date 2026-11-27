@@ -1,0 +1,61 @@
+{
+  "Monte_Carlo_executed": false,
+  "behavior_or_attack_simulated": false,
+  "counts": {
+    "B_binding": 1023,
+    "B_binding_outside_C": 17,
+    "B_binding_votes": 63662,
+    "B_binding_wallets": 6004,
+    "C_proposals": 1006,
+    "C_votes": 60804,
+    "C_wallets": 5921,
+    "current_delegation_rows_ignored": 1451,
+    "historical_delegation_edges_verified": 0,
+    "influence_edges_verified": 0,
+    "source_proposals": 2852,
+    "source_votes": 177729
+  },
+  "mode_A_initial": {
+    "accounts": 6004,
+    "agents": 6004,
+    "historical_delegation_edges": 0,
+    "historical_event_queue": 63662,
+    "influence_edges": 0,
+    "initial_votes": 0,
+    "known_budget_accounts": 0,
+    "materialized_agent_proposal_states": 0,
+    "proposals": 1023,
+    "randomness_used": false,
+    "seed": 0
+  },
+  "mode_B_initial": {
+    "accounts": 6004,
+    "agents": 6004,
+    "historical_delegation_edges": 0,
+    "historical_event_queue": 0,
+    "influence_edges": 0,
+    "initial_votes": 0,
+    "known_budget_accounts": 0,
+    "materialized_agent_proposal_states": 0,
+    "proposals": 1023,
+    "randomness_used": false,
+    "seed": 0
+  },
+  "protected_files_unchanged": 1292,
+  "replay_validation": {
+    "agent_proposal_states_after_replay": 63662,
+    "budget_uncertainty": 10,
+    "default_gap": 49,
+    "full_historical_replacement_trace_reconstructed": false,
+    "initial_time": 1621870140,
+    "original_official_matches": 1016,
+    "original_official_mismatches": 7,
+    "proposals_matched": 1023,
+    "retained_votes_applied": 63662,
+    "same_second_batches": 63408
+  },
+  "source_integrity": {
+    "normalized_checksums_verified": 11,
+    "raw_checksums_verified": 912
+  }
+}
