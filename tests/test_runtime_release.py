@@ -3,7 +3,8 @@ import json,sys,csv
 from pathlib import Path
 from fractions import Fraction as F
 import pytest
-BASE=Path(__file__).resolve().parents[1]
+PROJECT=Path(__file__).resolve().parents[1]
+BASE=PROJECT / "research"
 sys.path.insert(0,str(BASE/'chapter4/dao_risk_simulator'))
 import service as s
 
@@ -14,8 +15,8 @@ def test_imports_resolve_inside_extracted_release():
 
 def test_file_manifest_matches_bytes():
     import hashlib
-    m=json.loads((BASE/'RELEASE_FILE_MANIFEST.json').read_text(encoding='utf-8'))
-    for name,h in m.items():assert hashlib.sha256((BASE/name).read_bytes()).hexdigest()==h,name
+    m=json.loads((PROJECT/'RELEASE_FILE_MANIFEST.json').read_text(encoding='utf-8'))
+    for name,h in m.items():assert hashlib.sha256((PROJECT/name).read_bytes()).hexdigest()==h,name
 
 def test_runtime_binding_slice_retains_scope():
     df=s.historical_data();assert len(df)==1023 and sum(df['qv_status']=='ASSESSED')==943
